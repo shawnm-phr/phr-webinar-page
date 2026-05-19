@@ -47,7 +47,7 @@
           "youtubeId": "lBM73hj9Vfg",
           "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
           "speakers": [
-            { "initials": "SM", "name": "Shawn Moses", "role": "Product Marketing Manager, PeoplesHR", "color": "#e0f2fe", "textColor": "#0369a1" }
+            { "initials": "SM", "name": "Shawn Moses", "role": "Product Marketing Manager, PeoplesHR", "photo": "images/shawn_moses.webp", "color": "#e0f2fe", "textColor": "#0369a1" }
           ],
           "watchUrl": "https://youtu.be/lBM73hj9Vfg"
         },

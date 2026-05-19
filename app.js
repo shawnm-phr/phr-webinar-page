@@ -132,7 +132,9 @@ function renderRecordings(recordings) {
       const thumbStyle = `background:${v.thumbnailGradient};`;
       const speakersHTML = (v.speakers || []).slice(0, 2).map(s => `
         <div class="wb-rec-speaker">
-          <div class="wb-rec-sp-av" style="background:${s.color};color:${s.textColor};">${s.initials}</div>
+          ${s.photo
+            ? `<img class="wb-rec-sp-av wb-rec-sp-photo" src="${s.photo}" alt="${s.name}">`
+            : `<div class="wb-rec-sp-av" style="background:${s.color};color:${s.textColor};">${s.initials}</div>`}
           <div class="wb-rec-sp-info">
             <span class="wb-rec-sp-name">${s.name}</span>
             ${s.role ? `<span class="wb-rec-sp-role">${s.role}</span>` : ''}

@@ -3616,7 +3616,8 @@ svg{display:block;}
 .wb-cta-strip-text p{font-size:.9rem;color:rgba(255,255,255,.65);line-height:1.6;max-width:480px;}
 .wb-cta-strip-btns{display:flex;gap:12px;flex-shrink:0;position:relative;z-index:1;}
 
-.wb-featured-cta{margin-left:auto;}
+.wb-featured-cta{margin-left:auto;background:#16a34a;box-shadow:0 4px 16px rgba(22,163,74,0.35);}
+.wb-featured-cta:hover{background:#15803d;box-shadow:0 8px 24px rgba(22,163,74,0.45);}
 
 /* ══ RESPONSIVE ══ */
 

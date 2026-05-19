@@ -93,7 +93,10 @@ function renderUpcoming(upcoming) {
       <div class="wb-uc-body">
         <div class="wb-uc-cat-row">
           <div class="wb-uc-cat">${u.category}</div>
-          ${langBadge(u.language)}
+          <div class="wb-rec-meta-right">
+            ${langBadge(u.language)}
+            ${u.date ? `<span class="wb-rec-date-str">${u.date}</span>` : ''}
+          </div>
         </div>
         <div class="wb-uc-title">${u.title}</div>
         ${u.speaker ? `

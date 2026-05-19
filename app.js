@@ -115,7 +115,7 @@ function renderRecordings(recordings) {
   const totalVideos = recordings.reduce((n, g) => n + g.videos.length, 0);
 
   const groupsHTML = recordings.map(group => {
-    const cardsHTML = group.videos.map(v => {
+    const cardsHTML = group.videos.filter(v => v.duration).map(v => {
       // Use YouTube thumbnail if youtubeId is real, otherwise use gradient
       const thumbStyle = `background:${v.thumbnailGradient};`;
       const youtubeThumb = v.youtubeId && v.youtubeId !== 'dQw4w9WgXcQ'

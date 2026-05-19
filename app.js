@@ -115,7 +115,7 @@ function renderRecordings(recordings) {
   const totalVideos = recordings.reduce((n, g) => n + g.videos.length, 0);
 
   const groupsHTML = recordings.map(group => {
-    const cardsHTML = group.videos.filter(v => v.duration).map(v => {
+    const cardsHTML = group.videos.map(v => {
       // Use YouTube thumbnail if youtubeId is real, otherwise use gradient
       const thumbStyle = `background:${v.thumbnailGradient};`;
       const youtubeThumb = v.youtubeId && v.youtubeId !== 'dQw4w9WgXcQ'
@@ -128,8 +128,8 @@ function renderRecordings(recordings) {
           ${youtubeThumb}
           <span class="wb-preview-label">Preview</span>
           <div class="wb-rec-thumb-inner"><div class="wb-rec-play">${ICON_PLAY_LG}</div></div>
-          <span class="wb-rec-duration">${v.duration}</span>
-          <span class="wb-rec-viewed">${ICON_EYE} ${v.views} views</span>
+          ${v.duration ? `<span class="wb-rec-duration">${v.duration}</span>` : ''}
+          ${v.views ? `<span class="wb-rec-viewed">${ICON_EYE} ${v.views} views</span>` : ''}
         </div>
         <div class="wb-rec-body">
           <div class="wb-rec-meta">

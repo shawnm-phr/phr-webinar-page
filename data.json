@@ -57,7 +57,7 @@
           "youtubeId": "iCLkCzA_EdE",
           "thumbnailGradient": "linear-gradient(135deg,#312e81,#6d28d9)",
           "speakers": [
-            { "initials": "SD", "name": "Sri Rejeki Dharmadi", "role": "", "color": "#ccfbf1", "textColor": "#0f766e" }
+            { "initials": "SD", "name": "Sri Rejeki", "role": "Head of HR, PT Metrodata Electronics", "color": "#ccfbf1", "textColor": "#0f766e" }
           ],
           "watchUrl": "https://youtu.be/iCLkCzA_EdE"
         },
@@ -91,7 +91,7 @@
           "youtubeId": "E3hYTxXqLDQ",
           "thumbnailGradient": "linear-gradient(135deg,#9d174d,#ec4899)",
           "speakers": [
-            { "initials": "RN", "name": "Dr. Rully C. Hamdani Nawawi", "role": "", "color": "#ede9fe", "textColor": "#7c3aed" }
+            { "initials": "RN", "name": "Dr. Rully C. Hamdani Nawawi, SP., MBA, CHRP", "role": "Director - PT Hutama Mandiri Cipta", "color": "#ede9fe", "textColor": "#7c3aed" }
           ],
           "watchUrl": "https://youtu.be/E3hYTxXqLDQ"
         },

@@ -207,7 +207,6 @@ function renderCTA() {
     </div>
     <div class="wb-cta-strip-btns">
       <a href="#" class="btn-primary" style="font-size:.9rem;padding:12px 24px;">Get Notified ${ICON_ARROW}</a>
-      <a href="#" class="btn-secondary" style="font-size:.9rem;padding:12px 24px;background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.25);">View All Resources</a>
     </div>
   </div>`;
 }

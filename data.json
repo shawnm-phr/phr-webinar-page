@@ -13,7 +13,26 @@
       { "initials": "MR", "name": "Maya Reddy", "role": "VP People, Aurantia", "color": "#d1fae5", "textColor": "#065f46" }
     ]
   },
-  "upcoming": [],
+  "upcoming": [
+    {
+      "id": "uc-real-1",
+      "title": "The Resource Triangle: Aligning Tech, Finance & People for Real HR ROI",
+      "description": "Your HR technology investment is already underway — HRIS selected, budget approved, platform launched. But why is adoption still stagnant and ROI not being achieved? Join a 30-minute live session to discover why alignment between your HCM, workforce planning, and financial cycle is the key that has been overlooked.",
+      "category": "HR & People",
+      "date": "",
+      "time": "",
+      "duration": "30 mins",
+      "gradient": 2,
+      "registerUrl": "https://peopleshr.com/webinar-indonesia/",
+      "speaker": {
+        "initials": "MW",
+        "name": "Marcino Waas",
+        "role": "HR Technology Strategy Expert & Digital Employee Journey Architect · Pratesis",
+        "color": "#dbeafe",
+        "textColor": "#2563eb"
+      }
+    }
+  ],
   "recordings": [
     {
       "category": "Product",

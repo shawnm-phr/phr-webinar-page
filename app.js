@@ -81,12 +81,20 @@ function renderUpcoming(upcoming) {
   const cardsHTML = upcoming.map(u => `
     <a class="wb-upcoming-card" href="${u.registerUrl}">
       <div class="wb-uc-thumb ${GRAD_CLASSES[u.gradient] || GRAD_CLASSES[1]}">
-        <span class="wb-uc-date-badge">${u.date} · ${u.time}</span>
+        ${u.date && u.time ? `<span class="wb-uc-date-badge">${u.date} · ${u.time}</span>` : ''}
         <div class="wb-uc-icon">${ICON_PLAY_SM}</div>
       </div>
       <div class="wb-uc-body">
         <div class="wb-uc-cat">${u.category}</div>
         <div class="wb-uc-title">${u.title}</div>
+        ${u.speaker ? `
+        <div class="wb-uc-speaker">
+          <div class="wb-rec-sp-av" style="background:${u.speaker.color};color:${u.speaker.textColor};">${u.speaker.initials}</div>
+          <div class="wb-rec-sp-info">
+            <span class="wb-rec-sp-name">${u.speaker.name}</span>
+            ${u.speaker.role ? `<span class="wb-rec-sp-role">${u.speaker.role}</span>` : ''}
+          </div>
+        </div>` : ''}
         <div class="wb-uc-footer">
           <div class="wb-uc-time">${ICON_MINI_CLK} ${u.duration}</div>
           <span class="wb-register-btn">Register ${ICON_MINI_ARR}</span>

@@ -53,6 +53,7 @@ function renderFeatured(f) {
       <div>
         <div class="wb-featured-meta">
           <span class="wb-live-badge"><span class="wb-live-dot"></span>UPCOMING</span>
+          ${langBadge(f.language)}
         </div>
         <h2 class="wb-featured-title">${f.title}</h2>
         <p class="wb-featured-desc">${f.description}</p>

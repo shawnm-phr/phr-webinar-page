@@ -6,6 +6,7 @@
     "dateLabel": "5th June, 2026",
     "timeLabel": "2:00 PM WIB · 30 mins",
     "registerUrl": "https://peopleshr.com/webinar-indonesia/",
+    "language": "Bahasa",
     "attendees": "",
     "speakers": [
       { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategy Expert & Digital Employee Journey Architect · Pratesis", "photo": "images/marcino_waas.webp", "color": "#dbeafe", "textColor": "#2563eb" }

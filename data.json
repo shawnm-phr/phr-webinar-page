@@ -41,7 +41,7 @@
           "youtubeId": "StNpoZbNjVs",
           "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
           "speakers": [
-            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" }
+            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "photo": "images/riyazi_samsudeen.webp", "color": "#ffedd5", "textColor": "#c2410c" }
           ],
           "watchUrl": "https://youtu.be/StNpoZbNjVs"
         },
@@ -55,7 +55,7 @@
           "youtubeId": "iCLkCzA_EdE",
           "thumbnailGradient": "linear-gradient(135deg,#312e81,#6d28d9)",
           "speakers": [
-            { "initials": "SD", "name": "Sri Rejeki", "role": "Head of HR, PT Metrodata Electronics", "color": "#ccfbf1", "textColor": "#0f766e" }
+            { "initials": "SD", "name": "Sri Rejeki", "role": "Head of HR, PT Metrodata Electronics", "photo": "images/sri_rejeki.webp", "color": "#ccfbf1", "textColor": "#0f766e" }
           ],
           "watchUrl": "https://youtu.be/iCLkCzA_EdE"
         },
@@ -103,7 +103,7 @@
           "youtubeId": "Opnd0QA7Tek",
           "thumbnailGradient": "linear-gradient(135deg,#9d174d,#ec4899)",
           "speakers": [
-            { "initials": "CD", "name": "Charlie Dyer", "role": "Director, Product - Topia", "color": "#dbeafe", "textColor": "#2563eb" },
+            { "initials": "CD", "name": "Charlie Dyer", "role": "Director, Product - Topia", "photo": "images/charlie_dyer.webp", "color": "#dbeafe", "textColor": "#2563eb" },
             { "initials": "VW", "name": "Vichalya Wijesuriya", "role": "Director Marketing, PeoplesHR", "color": "#d1fae5", "textColor": "#065f46" }
           ],
           "watchUrl": "https://youtu.be/Opnd0QA7Tek"
@@ -134,7 +134,7 @@
           "thumbnailGradient": "linear-gradient(135deg,#581c87,#a855f7)",
           "speakers": [
             { "initials": "LL", "name": "Luxsho Logan", "role": "Vice President, Sales - PeoplesHR", "photo": "images/luxsho_logan.webp", "color": "#ede9fe", "textColor": "#7c3aed" },
-            { "initials": "KA", "name": "Dr. Kwame Annor", "role": "Senior HR Practitioner", "color": "#fef9c3", "textColor": "#854d0e" }
+            { "initials": "KA", "name": "Dr. Kwame Annor", "role": "Senior HR Practitioner", "photo": "images/kwame_annor.webp", "color": "#fef9c3", "textColor": "#854d0e" }
           ],
           "watchUrl": "https://www.youtube.com/watch?v=WZ8jdOzlhnk"
         },
@@ -148,7 +148,7 @@
           "youtubeId": "3tc7z2Bekps",
           "thumbnailGradient": "linear-gradient(135deg,#064e3b,#34d399)",
           "speakers": [
-            { "initials": "MG", "name": "Maheshi Gamage", "role": "Asst. Vice President, HR - Nations Trust Bank PLC", "color": "#ccfbf1", "textColor": "#0f766e" }
+            { "initials": "MG", "name": "Maheshi Gamage", "role": "Asst. Vice President, HR - Nations Trust Bank PLC", "photo": "images/maheshi_gamage.webp", "color": "#ccfbf1", "textColor": "#0f766e" }
           ],
           "watchUrl": "https://www.youtube.com/watch?v=3tc7z2Bekps"
         },
@@ -176,7 +176,7 @@
           "youtubeId": "ghOShodEj6s",
           "thumbnailGradient": "linear-gradient(135deg,#4c1d95,#8b5cf6)",
           "speakers": [
-            { "initials": "CF", "name": "Charles H. Ferguson", "role": "General Manager - APAC, Globalization Partners", "color": "#f0fdf4", "textColor": "#15803d" }
+            { "initials": "CF", "name": "Charles H. Ferguson", "role": "General Manager - APAC, Globalization Partners", "photo": "images/charles_ferguson.webp", "color": "#f0fdf4", "textColor": "#15803d" }
           ],
           "watchUrl": "https://www.youtube.com/watch?v=ghOShodEj6s"
         }
@@ -197,7 +197,7 @@
           "thumbnailGradient": "linear-gradient(135deg,#78350f,#f59e0b)",
           "speakers": [
             { "initials": "GP", "name": "Gigs P. Patano", "role": "", "color": "#fef9c3", "textColor": "#854d0e" },
-            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" }
+            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "photo": "images/riyazi_samsudeen.webp", "color": "#ffedd5", "textColor": "#c2410c" }
           ],
           "watchUrl": "https://www.youtube.com/watch?v=oVoOESPejnM"
         },
@@ -212,7 +212,7 @@
           "thumbnailGradient": "linear-gradient(135deg,#78350f,#f59e0b)",
           "speakers": [
             { "initials": "AG", "name": "Asitha Goonewardena", "role": "Chief Product Owner, PeoplesHR", "photo": "images/asitha_goonewardana.webp", "color": "#ffedd5", "textColor": "#c2410c" },
-            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" }
+            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "photo": "images/riyazi_samsudeen.webp", "color": "#ffedd5", "textColor": "#c2410c" }
           ],
           "watchUrl": "https://www.youtube.com/watch?v=mR7ll4k29h0"
         }

@@ -75,9 +75,6 @@ function renderFeatured(f) {
           <div class="wb-tile"><div class="wb-tile-num" id="cd-sec">--</div><div class="wb-tile-unit">Sec</div></div>
         </div>
       </div>
-      <div class="wb-play-ring">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M10 8l12 6-12 6V8z" fill="#fff"/></svg>
-      </div>
     </div>
   </div>`;
 }

@@ -137,7 +137,10 @@ function renderRecordings(recordings) {
               <span style="width:6px;height:6px;border-radius:50%;background:${group.categoryColor};display:inline-block;"></span>
               ${group.category}
             </span>
-            <span class="wb-rec-date-str">${v.date}</span>
+            <div class="wb-rec-meta-right">
+              ${v.language ? `<span class="wb-lang-badge">${v.language}</span>` : ''}
+              <span class="wb-rec-date-str">${v.date}</span>
+            </div>
           </div>
           <div class="wb-rec-title">${v.title}</div>
           <div class="wb-rec-footer">

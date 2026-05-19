@@ -105,42 +105,6 @@
           "thumbnailGradient": "linear-gradient(135deg,#312e81,#6d28d9)",
           "speaker": { "initials": "SD", "name": "Sri Rejeki Dharmadi", "color": "#ccfbf1", "textColor": "#0f766e" },
           "watchUrl": "https://youtu.be/iCLkCzA_EdE"
-        },
-        {
-          "id": "rec-1",
-          "title": "Introducing Lexi: Your AI People Partner — Full Product Walkthrough",
-          "date": "17 Apr 2025",
-          "duration": "58:24",
-          "views": "2.4k",
-          "language": "English",
-          "youtubeId": "dQw4w9WgXcQ",
-          "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
-          "speaker": { "initials": "AK", "name": "Anika Kapoor", "color": "#dbeafe", "textColor": "#2563eb" },
-          "watchUrl": "#"
-        },
-        {
-          "id": "rec-2",
-          "title": "Payroll Module Deep-Dive: Multi-Country Compliance & Automated Filings",
-          "date": "2 Mar 2025",
-          "duration": "44:10",
-          "views": "1.8k",
-          "language": "English",
-          "youtubeId": "dQw4w9WgXcQ",
-          "thumbnailGradient": "linear-gradient(135deg,#312e81,#6d28d9)",
-          "speaker": { "initials": "RB", "name": "Rajan Bose", "color": "#ede9fe", "textColor": "#7c3aed" },
-          "watchUrl": "#"
-        },
-        {
-          "id": "rec-3",
-          "title": "PeoplesHR 2025 Roadmap: What's Coming in Q2–Q4",
-          "date": "14 Feb 2025",
-          "duration": "37:55",
-          "views": "3.1k",
-          "language": "English",
-          "youtubeId": "dQw4w9WgXcQ",
-          "thumbnailGradient": "linear-gradient(135deg,#065f46,#059669)",
-          "speaker": { "initials": "AK", "name": "Anika Kapoor", "color": "#dbeafe", "textColor": "#2563eb" },
-          "watchUrl": "#"
         }
       ]
     },
@@ -159,30 +123,6 @@
           "thumbnailGradient": "linear-gradient(135deg,#9d174d,#ec4899)",
           "speaker": { "initials": "RN", "name": "Dr. Rully C. Hamdani Nawawi", "color": "#ede9fe", "textColor": "#7c3aed" },
           "watchUrl": "https://youtu.be/E3hYTxXqLDQ"
-        },
-        {
-          "id": "rec-4",
-          "title": "The Great Re-Skilling: Preparing Your Workforce for an AI-First World",
-          "date": "28 Jan 2025",
-          "duration": "62:18",
-          "views": "4.7k",
-          "language": "English",
-          "youtubeId": "dQw4w9WgXcQ",
-          "thumbnailGradient": "linear-gradient(135deg,#9d174d,#ec4899)",
-          "speaker": { "initials": "JT", "name": "James Thornton", "color": "#fce7f3", "textColor": "#be185d" },
-          "watchUrl": "#"
-        },
-        {
-          "id": "rec-5",
-          "title": "Engagement Metrics That Actually Matter: Beyond the Annual Survey",
-          "date": "10 Jan 2025",
-          "duration": "51:30",
-          "views": "2.2k",
-          "language": "English",
-          "youtubeId": "dQw4w9WgXcQ",
-          "thumbnailGradient": "linear-gradient(135deg,#7c2d12,#f97316)",
-          "speaker": { "initials": "MR", "name": "Maya Reddy", "color": "#d1fae5", "textColor": "#065f46" },
-          "watchUrl": "#"
         }
       ]
     },
@@ -201,18 +141,6 @@
           "thumbnailGradient": "linear-gradient(135deg,#78350f,#f59e0b)",
           "speaker": { "initials": "GP", "name": "Gigs P. Patano & Riyazi Samsudeen", "color": "#fef9c3", "textColor": "#854d0e" },
           "watchUrl": "https://www.youtube.com/watch?v=oVoOESPejnM"
-        },
-        {
-          "id": "rec-6",
-          "title": "Real-Time Payroll Reconciliation: Eliminating End-of-Month Chaos",
-          "date": "5 Dec 2024",
-          "duration": "48:44",
-          "views": "1.5k",
-          "language": "English",
-          "youtubeId": "dQw4w9WgXcQ",
-          "thumbnailGradient": "linear-gradient(135deg,#78350f,#f59e0b)",
-          "speaker": { "initials": "NP", "name": "Nadia Patel", "color": "#fef3c7", "textColor": "#92400e" },
-          "watchUrl": "#"
         }
       ]
     }

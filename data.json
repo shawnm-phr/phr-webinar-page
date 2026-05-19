@@ -1,16 +1,14 @@
 {
   "featured": {
-    "title": "How AI Is Reshaping Workforce Planning in 2025 — and What HR Leaders Must Do Now",
-    "description": "Join our Chief Product Officer and two award-winning CHROs as they unpack how leading enterprises are using predictive analytics, Lexi AI, and real-time insights to future-proof their people strategy — and avoid the most costly workforce mistakes of the decade.",
+    "title": "The Resource Triangle: Aligning Tech, Finance & People for Real HR ROI",
+    "description": "Your HR technology investment is already underway — HRIS selected, budget approved, platform launched. But why is adoption still stagnant and ROI not being achieved? Join a 30-minute live session to discover why alignment between your HCM, workforce planning, and financial cycle is the key that has been overlooked.",
     "date": "2026-06-05T14:00:00+07:00",
     "dateLabel": "5th June, 2026",
-    "timeLabel": "2:00 PM WIB · 90 mins",
-    "registerUrl": "#",
-    "attendees": "1,240+",
+    "timeLabel": "2:00 PM WIB · 30 mins",
+    "registerUrl": "https://peopleshr.com/webinar-indonesia/",
+    "attendees": "",
     "speakers": [
-      { "initials": "AK", "name": "Anika Kapoor", "role": "CPO, PeoplesHR", "color": "#dbeafe", "textColor": "#2563eb" },
-      { "initials": "JT", "name": "James Thornton", "role": "CHRO, HelixCorp", "color": "#fce7f3", "textColor": "#be185d" },
-      { "initials": "MR", "name": "Maya Reddy", "role": "VP People, Aurantia", "color": "#d1fae5", "textColor": "#065f46" }
+      { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategy Expert & Digital Employee Journey Architect · Pratesis", "color": "#dbeafe", "textColor": "#2563eb" }
     ]
   },
   "upcoming": [

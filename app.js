@@ -7,6 +7,13 @@
 
 const GRAD_CLASSES = ['','wb-uc-thumb-grad-1','wb-uc-thumb-grad-2','wb-uc-thumb-grad-3','wb-uc-thumb-grad-4','wb-uc-thumb-grad-5'];
 
+const LANG_FLAG = { 'English': '🇬🇧', 'Bahasa': '🇮🇩' };
+function langBadge(lang) {
+  if (!lang) return '';
+  const flag = LANG_FLAG[lang] || '';
+  return `<span class="wb-lang-badge">${flag} ${lang}</span>`;
+}
+
 // ── Icons (reusable SVG strings) ──────────────────────────────
 const ICON_CALENDAR = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="12" height="11" rx="2" fill="none"/><path d="M5 2v2M11 2v2M2 7h12" stroke-linecap="round"/></svg>`;
 const ICON_CLOCK    = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6" fill="none"/><path d="M8 5v3l2 2" stroke-linecap="round"/></svg>`;
@@ -85,7 +92,10 @@ function renderUpcoming(upcoming) {
         <div class="wb-uc-icon">${ICON_PLAY_SM}</div>
       </div>
       <div class="wb-uc-body">
-        <div class="wb-uc-cat">${u.category}</div>
+        <div class="wb-uc-cat-row">
+          <div class="wb-uc-cat">${u.category}</div>
+          ${langBadge(u.language)}
+        </div>
         <div class="wb-uc-title">${u.title}</div>
         ${u.speaker ? `
         <div class="wb-uc-speaker">
@@ -151,7 +161,7 @@ function renderRecordings(recordings) {
               ${group.category}
             </span>
             <div class="wb-rec-meta-right">
-              ${v.language ? `<span class="wb-lang-badge">${v.language}</span>` : ''}
+              ${langBadge(v.language)}
               <span class="wb-rec-date-str">${v.date}</span>
             </div>
           </div>

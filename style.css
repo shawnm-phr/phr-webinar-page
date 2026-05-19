@@ -3559,7 +3559,8 @@ svg{display:block;}
 .wb-uc-date-badge{background:rgba(255,255,255,.95);border-radius:8px;padding:6px 12px;font-size:12px;font-weight:800;color:var(--navy);letter-spacing:-.3px;}
 .wb-uc-icon{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);display:flex;align-items:center;justify-content:center;}
 .wb-uc-body{padding:18px 20px 20px;}
-.wb-uc-cat{font-size:10px;font-weight:700;letter-spacing:1px;color:var(--blue);text-transform:uppercase;margin-bottom:8px;}
+.wb-uc-cat-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
+.wb-uc-cat{font-size:10px;font-weight:700;letter-spacing:1px;color:var(--blue);text-transform:uppercase;}
 .wb-uc-title{font-size:14px;font-weight:700;color:var(--navy);line-height:1.4;margin-bottom:12px;}
 .wb-uc-speaker{display:flex;align-items:center;gap:7px;margin-bottom:12px;}
 .wb-uc-footer{display:flex;align-items:center;justify-content:space-between;padding-top:12px;border-top:1px solid #f1f5f9;}

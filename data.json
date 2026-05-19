@@ -82,6 +82,28 @@
           "watchUrl": "https://youtu.be/lBM73hj9Vfg"
         },
         {
+          "id": "rec-7",
+          "title": "The EverywhereWorkforce: A Live Look at HR Tech Built for Mobility",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "youtubeId": "StNpoZbNjVs",
+          "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
+          "speaker": { "initials": "RS", "name": "Riyazi Samsudeen", "color": "#ffedd5", "textColor": "#c2410c" },
+          "watchUrl": "https://youtu.be/StNpoZbNjVs"
+        },
+        {
+          "id": "rec-8",
+          "title": "AI in HR: From Hype to Everyday Impact",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "youtubeId": "iCLkCzA_EdE",
+          "thumbnailGradient": "linear-gradient(135deg,#312e81,#6d28d9)",
+          "speaker": { "initials": "SD", "name": "Sri Rejeki Dharmadi", "color": "#ccfbf1", "textColor": "#0f766e" },
+          "watchUrl": "https://youtu.be/iCLkCzA_EdE"
+        },
+        {
           "id": "rec-1",
           "title": "Introducing Lexi: Your AI People Partner — Full Product Walkthrough",
           "date": "17 Apr 2025",
@@ -121,6 +143,17 @@
       "categoryColor": "#be185d",
       "videos": [
         {
+          "id": "rec-9",
+          "title": "Talent in the Age of AI: How HR Tech Is Transforming Workforce Management",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "youtubeId": "E3hYTxXqLDQ",
+          "thumbnailGradient": "linear-gradient(135deg,#9d174d,#ec4899)",
+          "speaker": { "initials": "RN", "name": "Dr. Rully C. Hamdani Nawawi", "color": "#ede9fe", "textColor": "#7c3aed" },
+          "watchUrl": "https://youtu.be/E3hYTxXqLDQ"
+        },
+        {
           "id": "rec-4",
           "title": "The Great Re-Skilling: Preparing Your Workforce for an AI-First World",
           "date": "28 Jan 2025",
@@ -148,6 +181,17 @@
       "category": "Finance & Payroll",
       "categoryColor": "#d97706",
       "videos": [
+        {
+          "id": "rec-10",
+          "title": "Fixing Philippines Payroll: What HR needs to get right in 2026",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "youtubeId": "oVoOESPejnM",
+          "thumbnailGradient": "linear-gradient(135deg,#78350f,#f59e0b)",
+          "speaker": { "initials": "GP", "name": "Gigs P. Patano & Riyazi Samsudeen", "color": "#fef9c3", "textColor": "#854d0e" },
+          "watchUrl": "https://www.youtube.com/watch?v=oVoOESPejnM"
+        },
         {
           "id": "rec-6",
           "title": "Real-Time Payroll Reconciliation: Eliminating End-of-Month Chaos",

@@ -71,10 +71,6 @@ function renderFeatured(f) {
       <div class="wb-play-ring">
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M10 8l12 6-12 6V8z" fill="#fff"/></svg>
       </div>
-      <div class="wb-attendees">
-        <div class="wb-att-avatars">${avatarsHTML}</div>
-        <span class="wb-att-text"><strong>${f.attendees}</strong> registered</span>
-      </div>
     </div>
   </div>`;
 }

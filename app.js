@@ -301,7 +301,19 @@ function initReveal() {
 // ── Hamburger ─────────────────────────────────────────────────
 function initHamburger() {
   const btn = document.getElementById('hamburger');
-  if (btn) btn.addEventListener('click', function() { this.classList.toggle('open'); });
+  const drawer = document.getElementById('mobile-nav');
+  if (!btn) return;
+  btn.addEventListener('click', function() {
+    const open = this.classList.toggle('open');
+    if (drawer) drawer.classList.toggle('open', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  // Close on link tap
+  if (drawer) drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    btn.classList.remove('open');
+    drawer.classList.remove('open');
+    document.body.style.overflow = '';
+  }));
 }
 
 // ── Video Modal ───────────────────────────────────────────────

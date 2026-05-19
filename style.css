@@ -3580,7 +3580,7 @@ svg{display:block;}
 .wb-rec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
 
 /* Recording card */
-.wb-rec-card{background:#fff;border-radius:18px;border:1.5px solid var(--border);overflow:hidden;transition:all .25s;cursor:pointer;}
+.wb-rec-card{background:#fff;border-radius:18px;border:1.5px solid #cbd5e1;overflow:hidden;transition:all .25s;cursor:pointer;}
 .wb-rec-card:hover{border-color:rgba(37,99,235,.3);box-shadow:0 8px 32px rgba(13,27,62,.1);transform:translateY(-3px);}
 .wb-rec-thumb{height:160px;position:relative;overflow:hidden;}
 .wb-rec-thumb-inner{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}

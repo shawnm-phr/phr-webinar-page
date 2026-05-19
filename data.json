@@ -8,7 +8,7 @@
     "registerUrl": "https://peopleshr.com/webinar-indonesia/",
     "attendees": "",
     "speakers": [
-      { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategy Expert & Digital Employee Journey Architect · Pratesis", "color": "#dbeafe", "textColor": "#2563eb" }
+      { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategy Expert & Digital Employee Journey Architect · Pratesis", "photo": "images/marcino_waas.webp", "color": "#dbeafe", "textColor": "#2563eb" }
     ]
   },
   "upcoming": [
@@ -27,6 +27,7 @@
         "initials": "MW",
         "name": "Marcino Waas",
         "role": "HR Technology Strategy Expert & Digital Employee Journey Architect · Pratesis",
+        "photo": "images/marcino_waas.webp",
         "color": "#dbeafe",
         "textColor": "#2563eb"
       }

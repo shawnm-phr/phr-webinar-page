@@ -31,7 +31,9 @@ const ICON_GRID     = `<svg width="14" height="14" viewBox="0 0 14 14" fill="non
 function renderFeatured(f) {
   const speakersHTML = f.speakers.map(s => `
     <div class="wb-speaker">
-      <div class="wb-speaker-av" style="background:${s.color};color:${s.textColor};">${s.initials}</div>
+      ${s.photo
+          ? `<img class="wb-speaker-av wb-rec-sp-photo" src="${s.photo}" alt="${s.name}">`
+          : `<div class="wb-speaker-av" style="background:${s.color};color:${s.textColor};">${s.initials}</div>`}
       <div>
         <div class="wb-speaker-name">${s.name}</div>
         <div class="wb-speaker-role">${s.role}</div>
@@ -96,7 +98,9 @@ function renderUpcoming(upcoming) {
         <div class="wb-uc-title">${u.title}</div>
         ${u.speaker ? `
         <div class="wb-uc-speaker">
-          <div class="wb-rec-sp-av" style="background:${u.speaker.color};color:${u.speaker.textColor};">${u.speaker.initials}</div>
+          ${u.speaker.photo
+            ? `<img class="wb-rec-sp-av wb-rec-sp-photo" src="${u.speaker.photo}" alt="${u.speaker.name}">`
+            : `<div class="wb-rec-sp-av" style="background:${u.speaker.color};color:${u.speaker.textColor};">${u.speaker.initials}</div>`}
           <div class="wb-rec-sp-info">
             <span class="wb-rec-sp-name">${u.speaker.name}</span>
             ${u.speaker.role ? `<span class="wb-rec-sp-role">${u.speaker.role}</span>` : ''}

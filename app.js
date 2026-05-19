@@ -46,7 +46,7 @@ function renderFeatured(f) {
 
   return `
   <div class="wb-section-head" style="margin-top:0;">
-    <div class="wb-section-title">Next up: <span>Featured Webinar</span></div>
+    <div class="wb-section-title wb-section-title--dark">Next up: <span>Featured Webinar</span></div>
   </div>
   <div class="wb-featured-card">
     <div class="wb-featured-left">

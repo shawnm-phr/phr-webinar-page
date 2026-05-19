@@ -71,6 +71,17 @@
       "categoryColor": "#2563eb",
       "videos": [
         {
+          "id": "rec-0",
+          "title": "The AI Intelligence C-Suite Needs!",
+          "date": "19 May 2026",
+          "duration": "42:39",
+          "views": "new",
+          "youtubeId": "lBM73hj9Vfg",
+          "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
+          "speaker": { "initials": "SM", "name": "Shawn Moses", "color": "#e0f2fe", "textColor": "#0369a1" },
+          "watchUrl": "https://youtu.be/lBM73hj9Vfg"
+        },
+        {
           "id": "rec-1",
           "title": "Introducing Lexi: Your AI People Partner — Full Product Walkthrough",
           "date": "17 Apr 2025",

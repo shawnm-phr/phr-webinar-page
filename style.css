@@ -3477,7 +3477,7 @@ svg{display:block;}
 .webinar-page{background:var(--bg-light);min-height:100vh;}
 
 /* PAGE HERO */
-.wb-page-hero{background:#eef2ff;border-bottom:1px solid #e2e8f0;padding:64px;position:relative;overflow:hidden;}
+.wb-page-hero{background:#eef2ff;border-bottom:1px solid #e2e8f0;padding:96px 64px;position:relative;overflow:hidden;}
 .wb-page-hero::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.06) 0%,transparent 70%);top:-200px;right:-100px;pointer-events:none;}
 .wb-page-hero::after{content:'';position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(59,130,246,.04) 0%,transparent 70%);bottom:-100px;left:200px;pointer-events:none;}
 .wb-hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:2;display:flex;align-items:center;gap:48px;}

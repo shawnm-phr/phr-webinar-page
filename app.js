@@ -118,6 +118,14 @@ function renderRecordings(recordings) {
     const cardsHTML = group.videos.map(v => {
       // Use YouTube thumbnail if youtubeId is real, otherwise use gradient
       const thumbStyle = `background:${v.thumbnailGradient};`;
+      const speakersHTML = (v.speakers || []).slice(0, 2).map(s => `
+        <div class="wb-rec-speaker">
+          <div class="wb-rec-sp-av" style="background:${s.color};color:${s.textColor};">${s.initials}</div>
+          <div class="wb-rec-sp-info">
+            <span class="wb-rec-sp-name">${s.name}</span>
+            ${s.role ? `<span class="wb-rec-sp-role">${s.role}</span>` : ''}
+          </div>
+        </div>`).join('');
       const youtubeThumb = v.youtubeId && v.youtubeId !== 'dQw4w9WgXcQ'
         ? `<img src="https://img.youtube.com/vi/${v.youtubeId}/hqdefault.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;" loading="lazy" alt="${v.title}">`
         : '';
@@ -144,8 +152,7 @@ function renderRecordings(recordings) {
           </div>
           <div class="wb-rec-title">${v.title}</div>
           <div class="wb-rec-footer">
-            <div class="wb-rec-sp-av" style="background:${v.speaker.color};color:${v.speaker.textColor};">${v.speaker.initials}</div>
-            <span class="wb-rec-sp-name">${v.speaker.name}</span>
+            <div class="wb-rec-speakers">${speakersHTML}</div>
             <button class="wb-watch-btn">Watch ${ICON_MINI_ARR}</button>
           </div>
         </div>

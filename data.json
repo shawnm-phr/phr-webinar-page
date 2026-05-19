@@ -79,7 +79,9 @@
           "language": "English",
           "youtubeId": "lBM73hj9Vfg",
           "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
-          "speaker": { "initials": "SM", "name": "Shawn Moses", "color": "#e0f2fe", "textColor": "#0369a1" },
+          "speakers": [
+            { "initials": "SM", "name": "Shawn Moses", "role": "Product Marketing Manager, PeoplesHR", "color": "#e0f2fe", "textColor": "#0369a1" }
+          ],
           "watchUrl": "https://youtu.be/lBM73hj9Vfg"
         },
         {
@@ -91,7 +93,9 @@
           "language": "English",
           "youtubeId": "StNpoZbNjVs",
           "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
-          "speaker": { "initials": "RS", "name": "Riyazi Samsudeen", "color": "#ffedd5", "textColor": "#c2410c" },
+          "speakers": [
+            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" }
+          ],
           "watchUrl": "https://youtu.be/StNpoZbNjVs"
         },
         {
@@ -103,8 +107,24 @@
           "language": "Bahasa",
           "youtubeId": "iCLkCzA_EdE",
           "thumbnailGradient": "linear-gradient(135deg,#312e81,#6d28d9)",
-          "speaker": { "initials": "SD", "name": "Sri Rejeki Dharmadi", "color": "#ccfbf1", "textColor": "#0f766e" },
+          "speakers": [
+            { "initials": "SD", "name": "Sri Rejeki Dharmadi", "role": "", "color": "#ccfbf1", "textColor": "#0f766e" }
+          ],
           "watchUrl": "https://youtu.be/iCLkCzA_EdE"
+        },
+        {
+          "id": "rec-11",
+          "title": "How to effectively use People Analytics for your People",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "cAbGKlIRjkQ",
+          "thumbnailGradient": "linear-gradient(135deg,#1e40af,#3b82f6)",
+          "speakers": [
+            { "initials": "AG", "name": "Asitha Goonewardena", "role": "Chief Product Owner, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" }
+          ],
+          "watchUrl": "https://www.youtube.com/watch?v=cAbGKlIRjkQ"
         }
       ]
     },
@@ -121,8 +141,97 @@
           "language": "Bahasa",
           "youtubeId": "E3hYTxXqLDQ",
           "thumbnailGradient": "linear-gradient(135deg,#9d174d,#ec4899)",
-          "speaker": { "initials": "RN", "name": "Dr. Rully C. Hamdani Nawawi", "color": "#ede9fe", "textColor": "#7c3aed" },
+          "speakers": [
+            { "initials": "RN", "name": "Dr. Rully C. Hamdani Nawawi", "role": "", "color": "#ede9fe", "textColor": "#7c3aed" }
+          ],
           "watchUrl": "https://youtu.be/E3hYTxXqLDQ"
+        },
+        {
+          "id": "rec-12",
+          "title": "The Future of HR in a Distributed Workforce: Supercharging Global Talent Mobility with Technology",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "Opnd0QA7Tek",
+          "thumbnailGradient": "linear-gradient(135deg,#9d174d,#ec4899)",
+          "speakers": [
+            { "initials": "CD", "name": "Charlie Dyer", "role": "Director, Product - Topia", "color": "#dbeafe", "textColor": "#2563eb" },
+            { "initials": "VW", "name": "Vichalya Wijesuriya", "role": "Director Marketing, PeoplesHR", "color": "#d1fae5", "textColor": "#065f46" }
+          ],
+          "watchUrl": "https://youtu.be/Opnd0QA7Tek"
+        },
+        {
+          "id": "rec-13",
+          "title": "The Role of AI in HR: Shaping Tomorrow's Workforce",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "wKQRUktg0Nw",
+          "thumbnailGradient": "linear-gradient(135deg,#7c2d12,#f97316)",
+          "speakers": [
+            { "initials": "TP", "name": "Tarvinder Puri", "role": "Human Resources Director, ADP Advisory Services", "color": "#fce7f3", "textColor": "#be185d" },
+            { "initials": "LL", "name": "Luxsho Logan", "role": "Vice President, Sales - PeoplesHR", "color": "#ede9fe", "textColor": "#7c3aed" }
+          ],
+          "watchUrl": "https://www.youtube.com/watch?v=wKQRUktg0Nw"
+        },
+        {
+          "id": "rec-14",
+          "title": "The Influence of AI in HR: Friend or Foe",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "WZ8jdOzlhnk",
+          "thumbnailGradient": "linear-gradient(135deg,#581c87,#a855f7)",
+          "speakers": [
+            { "initials": "LL", "name": "Luxsho Logan", "role": "Vice President, Sales - PeoplesHR", "color": "#ede9fe", "textColor": "#7c3aed" },
+            { "initials": "KA", "name": "Dr. Kwame Annor", "role": "Senior HR Practitioner", "color": "#fef9c3", "textColor": "#854d0e" }
+          ],
+          "watchUrl": "https://www.youtube.com/watch?v=WZ8jdOzlhnk"
+        },
+        {
+          "id": "rec-15",
+          "title": "Beginner's Blueprint: How to Use AI Prompts in HR",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "3tc7z2Bekps",
+          "thumbnailGradient": "linear-gradient(135deg,#064e3b,#34d399)",
+          "speakers": [
+            { "initials": "MG", "name": "Maheshi Gamage", "role": "Asst. Vice President, HR - Nations Trust Bank PLC", "color": "#ccfbf1", "textColor": "#0f766e" }
+          ],
+          "watchUrl": "https://www.youtube.com/watch?v=3tc7z2Bekps"
+        },
+        {
+          "id": "rec-16",
+          "title": "AI's Influence on HR: Navigating the Future of Work in 2024",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "P0j0D4oUebc",
+          "thumbnailGradient": "linear-gradient(135deg,#1e3a8a,#60a5fa)",
+          "speakers": [
+            { "initials": "LL", "name": "Luxsho Logan", "role": "Vice President, Sales - PeoplesHR", "color": "#ede9fe", "textColor": "#7c3aed" }
+          ],
+          "watchUrl": "https://www.youtube.com/watch?v=P0j0D4oUebc"
+        },
+        {
+          "id": "rec-17",
+          "title": "How to Search for Talent Skills in Emerging Markets",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "ghOShodEj6s",
+          "thumbnailGradient": "linear-gradient(135deg,#4c1d95,#8b5cf6)",
+          "speakers": [
+            { "initials": "CF", "name": "Charles H. Ferguson", "role": "General Manager - APAC, Globalization Partners", "color": "#f0fdf4", "textColor": "#15803d" }
+          ],
+          "watchUrl": "https://www.youtube.com/watch?v=ghOShodEj6s"
         }
       ]
     },
@@ -139,8 +248,26 @@
           "language": "English",
           "youtubeId": "oVoOESPejnM",
           "thumbnailGradient": "linear-gradient(135deg,#78350f,#f59e0b)",
-          "speaker": { "initials": "GP", "name": "Gigs P. Patano & Riyazi Samsudeen", "color": "#fef9c3", "textColor": "#854d0e" },
+          "speakers": [
+            { "initials": "GP", "name": "Gigs P. Patano", "role": "", "color": "#fef9c3", "textColor": "#854d0e" },
+            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" }
+          ],
           "watchUrl": "https://www.youtube.com/watch?v=oVoOESPejnM"
+        },
+        {
+          "id": "rec-18",
+          "title": "Future-Proof Payroll: Navigating Compliance in the Digital Age",
+          "date": "",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "mR7ll4k29h0",
+          "thumbnailGradient": "linear-gradient(135deg,#78350f,#f59e0b)",
+          "speakers": [
+            { "initials": "AG", "name": "Asitha Goonewardena", "role": "Chief Product Owner, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" },
+            { "initials": "RS", "name": "Riyazi Samsudeen", "role": "Director Sales & Partner Management, PeoplesHR", "color": "#ffedd5", "textColor": "#c2410c" }
+          ],
+          "watchUrl": "https://www.youtube.com/watch?v=mR7ll4k29h0"
         }
       ]
     }

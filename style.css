@@ -3482,8 +3482,8 @@ svg{display:block;}
 .wb-page-hero::after{content:'';position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(59,130,246,.04) 0%,transparent 70%);bottom:-100px;left:200px;pointer-events:none;}
 .wb-hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:2;display:flex;align-items:center;gap:48px;}
 .wb-hero-content{flex:1;}
-.wb-hero-img-col{flex:0 0 46%;display:flex;align-items:center;justify-content:center;}
-.wb-hero-img{display:block;width:100%;height:auto;border-radius:16px;box-shadow:0 8px 32px rgba(13,27,62,0.10);}
+.wb-hero-img-col{flex:0 0 46%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.35);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.65);border-radius:20px;padding:16px;}
+.wb-hero-img{display:block;width:100%;height:auto;border-radius:12px;}
 .wb-hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:100px;padding:6px 18px;font-size:11px;font-weight:700;letter-spacing:1.5px;color:#2563eb;text-transform:uppercase;margin-bottom:24px;}
 .wb-hero-eyebrow-dot{width:6px;height:6px;border-radius:50%;background:#2563eb;animation:pulse-dot 2s ease-in-out infinite;}
 @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}

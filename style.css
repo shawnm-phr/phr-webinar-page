@@ -3748,3 +3748,15 @@ svg{display:block;}
 /* Hide the "X views" badge when previewing */
 .wb-rec-card:hover .wb-rec-viewed { opacity: 0; transition: opacity .2s; }
 .wb-rec-viewed { transition: opacity .2s; }
+
+/* ── Video Modal ─────────────────────────────────────────────── */
+.wb-modal-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:2000;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(4px);}
+.wb-modal-backdrop.open{display:flex;}
+.wb-modal-box{background:#000;border-radius:16px;overflow:hidden;width:100%;max-width:920px;position:relative;box-shadow:0 32px 80px rgba(0,0,0,.7);animation:modal-in .22s ease;}
+@keyframes modal-in{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}
+.wb-modal-close{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.15);border:none;color:#fff;width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;z-index:10;transition:background .2s;line-height:1;}
+.wb-modal-close:hover{background:rgba(255,255,255,.35);}
+.wb-modal-iframe-wrap{position:relative;padding-bottom:56.25%;height:0;}
+.wb-modal-iframe-wrap iframe{position:absolute;inset:0;width:100%;height:100%;}
+.wb-modal-title{padding:14px 20px;font-size:13px;font-weight:600;color:rgba(255,255,255,.75);background:#111;line-height:1.4;}
+.wb-watch-btn{background:none;border:none;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:600;color:var(--blue);font-family:inherit;}

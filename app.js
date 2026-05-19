@@ -123,7 +123,7 @@ function renderRecordings(recordings) {
         : '';
 
       return `
-      <div class="wb-rec-card">
+      <div class="wb-rec-card" data-ytid="${v.youtubeId}" data-title="${v.title.replace(/"/g, '&quot;')}">
         <div class="wb-rec-thumb" style="${thumbStyle}">
           ${youtubeThumb}
           <span class="wb-preview-label">Preview</span>
@@ -146,7 +146,7 @@ function renderRecordings(recordings) {
           <div class="wb-rec-footer">
             <div class="wb-rec-sp-av" style="background:${v.speaker.color};color:${v.speaker.textColor};">${v.speaker.initials}</div>
             <span class="wb-rec-sp-name">${v.speaker.name}</span>
-            <a href="${v.watchUrl}" class="wb-watch-btn" target="_blank" rel="noopener">Watch ${ICON_MINI_ARR}</a>
+            <button class="wb-watch-btn">Watch ${ICON_MINI_ARR}</button>
           </div>
         </div>
       </div>`;
@@ -277,6 +277,40 @@ function initHamburger() {
   if (btn) btn.addEventListener('click', function() { this.classList.toggle('open'); });
 }
 
+// ── Video Modal ───────────────────────────────────────────────
+function renderModal() {
+  const el = document.createElement('div');
+  el.id = 'wb-video-modal';
+  el.className = 'wb-modal-backdrop';
+  el.innerHTML = `
+    <div class="wb-modal-box">
+      <button class="wb-modal-close" id="wb-modal-close">&#x2715;</button>
+      <div class="wb-modal-iframe-wrap">
+        <iframe id="wb-modal-iframe" frameborder="0" allowfullscreen
+          allow="autoplay; encrypted-media; picture-in-picture"></iframe>
+      </div>
+      <div class="wb-modal-title" id="wb-modal-title"></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener('click', e => { if (e.target === el) closeVideoModal(); });
+  document.getElementById('wb-modal-close').addEventListener('click', closeVideoModal);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeVideoModal(); });
+}
+
+function openVideoModal(youtubeId, title) {
+  document.getElementById('wb-modal-iframe').src =
+    `https://www.youtube.com/embed/${youtubeId}?autoplay=1`;
+  document.getElementById('wb-modal-title').textContent = title;
+  document.getElementById('wb-video-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeVideoModal() {
+  document.getElementById('wb-modal-iframe').src = '';
+  document.getElementById('wb-video-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 // ── Main: Fetch data.json and render everything ───────────────
 async function init() {
   try {
@@ -290,6 +324,14 @@ async function init() {
       renderUpcoming(data.upcoming) +
       renderRecordings(data.recordings) +
       renderCTA();
+
+    // Wire up video modal
+    renderModal();
+    document.getElementById('wb-body').addEventListener('click', e => {
+      const card = e.target.closest('.wb-rec-card[data-ytid]');
+      if (!card) return;
+      openVideoModal(card.dataset.ytid, card.dataset.title);
+    });
 
     // Kick off interactive features after DOM is ready
     startCountdown(data.featured.date);

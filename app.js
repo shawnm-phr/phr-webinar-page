@@ -77,6 +77,7 @@ function renderFeatured(f) {
 
 // ── Render: Upcoming Slider ───────────────────────────────────
 function renderUpcoming(upcoming) {
+  if (!upcoming || upcoming.length === 0) return '';
   const cardsHTML = upcoming.map(u => `
     <a class="wb-upcoming-card" href="${u.registerUrl}">
       <div class="wb-uc-thumb ${GRAD_CLASSES[u.gradient] || GRAD_CLASSES[1]}">

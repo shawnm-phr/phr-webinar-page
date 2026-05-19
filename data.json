@@ -13,58 +13,7 @@
       { "initials": "MR", "name": "Maya Reddy", "role": "VP People, Aurantia", "color": "#d1fae5", "textColor": "#065f46" }
     ]
   },
-  "upcoming": [
-    {
-      "id": "uc-1",
-      "title": "Building a Resilient HR Function: From Reactive to Strategic in 90 Days",
-      "category": "HR & People",
-      "date": "7 Jun",
-      "time": "10:00 AM SGT",
-      "duration": "60 mins",
-      "gradient": 2,
-      "registerUrl": "#"
-    },
-    {
-      "id": "uc-2",
-      "title": "The CFO's Guide to Payroll Compliance in a Multi-Country World",
-      "category": "Finance & Payroll",
-      "date": "10 Jun",
-      "time": "2:00 PM SGT",
-      "duration": "75 mins",
-      "gradient": 3,
-      "registerUrl": "#"
-    },
-    {
-      "id": "uc-3",
-      "title": "Lexi 2.0 Launch: What's New in AI-Powered HR Analytics",
-      "category": "Product",
-      "date": "18 Jun",
-      "time": "11:00 AM SGT",
-      "duration": "60 mins",
-      "gradient": 4,
-      "registerUrl": "#"
-    },
-    {
-      "id": "uc-4",
-      "title": "Enterprise HRMS Security: SSO, RBAC & Zero-Trust Principles Explained",
-      "category": "IT & Security",
-      "date": "25 Jun",
-      "time": "9:00 AM SGT",
-      "duration": "45 mins",
-      "gradient": 5,
-      "registerUrl": "#"
-    },
-    {
-      "id": "uc-5",
-      "title": "From Onboarding to Offboarding: Designing the Full Employee Lifecycle",
-      "category": "HR & People",
-      "date": "2 Jul",
-      "time": "3:00 PM SGT",
-      "duration": "60 mins",
-      "gradient": 1,
-      "registerUrl": "#"
-    }
-  ],
+  "upcoming": [],
   "recordings": [
     {
       "category": "Product",

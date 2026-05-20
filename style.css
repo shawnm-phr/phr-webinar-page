@@ -3514,7 +3514,7 @@ svg{display:block;}
 .wb-date-chip svg{flex-shrink:0;color:var(--blue);}
 
 /* Featured right panel */
-.wb-featured-right{background:url('https://picsum.photos/seed/phr-webinar/420/600') center/cover no-repeat;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:15%;padding-left:40px;padding-right:40px;padding-bottom:40px;position:relative;overflow:hidden;gap:24px;}
+.wb-featured-right{background:url('images/featured-bg.webp') center/cover no-repeat;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:15%;padding-left:40px;padding-right:40px;padding-bottom:40px;position:relative;overflow:hidden;gap:24px;}
 .wb-featured-right::before{content:'';position:absolute;inset:0;background:linear-gradient(160deg,rgba(6,78,59,.82) 0%,rgba(30,64,175,.75) 100%);}
 .wb-play-ring{width:88px;height:88px;border-radius:50%;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;cursor:pointer;position:relative;z-index:1;transition:all .25s ease;}
 .wb-play-ring:hover{background:rgba(37,99,235,.5);border-color:rgba(255,255,255,.5);transform:scale(1.06);}

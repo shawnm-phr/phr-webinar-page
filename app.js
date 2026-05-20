@@ -45,9 +45,6 @@ function renderFeatured(f) {
   ).join('') + `<div class="wb-att-av" style="background:#ede9fe;color:#7c3aed;">+</div>`;
 
   return `
-  <div class="wb-section-head" style="margin-top:0;">
-    <div class="wb-section-title wb-section-title--dark">Next up: <span>Featured Webinar</span></div>
-  </div>
   <div class="wb-featured-card">
     <div class="wb-featured-left">
       <div>

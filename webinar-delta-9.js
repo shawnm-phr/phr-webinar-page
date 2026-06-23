@@ -239,12 +239,12 @@ const WEBINAR_DATA = {
 }
 ;
 
-// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 //  PeoplesHR Webinar Page — app.js
 //  Reads data.json and renders all content dynamically.
 //  To update content: edit data.json only. Never touch this file
 //  for routine content changes.
-// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 
 const GRAD_CLASSES = ['','wb-uc-thumb-grad-1','wb-uc-thumb-grad-2','wb-uc-thumb-grad-3','wb-uc-thumb-grad-4','wb-uc-thumb-grad-5'];
 
@@ -255,7 +255,7 @@ function langBadge(lang) {
   return `<span class="wb-lang-badge">${flag} ${lang}</span>`;
 }
 
-// â”€â”€ Icons (reusable SVG strings) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Icons (reusable SVG strings) â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 const ICON_CALENDAR = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="12" height="11" rx="2" fill="none"/><path d="M5 2v2M11 2v2M2 7h12" stroke-linecap="round"/></svg>`;
 const ICON_CLOCK    = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6" fill="none"/><path d="M8 5v3l2 2" stroke-linecap="round"/></svg>`;
 const ICON_ARROW    = `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 7h10M7 2l5 5-5 5"/></svg>`;
@@ -268,7 +268,7 @@ const ICON_PREV     = `<svg width="16" height="16" viewBox="0 0 16 16" fill="non
 const ICON_NEXT     = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4l4 4-4 4"/></svg>`;
 const ICON_GRID     = `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="display:inline;vertical-align:-2px;margin-right:6px;"><rect x="1" y="1" width="5" height="5" rx="1.5" fill="#2563eb"/><rect x="8" y="1" width="5" height="5" rx="1.5" fill="#2563eb" opacity=".5"/><rect x="1" y="8" width="5" height="5" rx="1.5" fill="#2563eb" opacity=".5"/><rect x="8" y="8" width="5" height="5" rx="1.5" fill="#2563eb" opacity=".25"/></svg>`;
 
-// â”€â”€ Render: Featured Webinar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Render: Featured Webinar â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function renderFeatured(f) {
   const speakersHTML = f.speakers.map(s => `
     <div class="wb-speaker">
@@ -320,7 +320,7 @@ function renderFeatured(f) {
   </div>`;
 }
 
-// â”€â”€ Render: Upcoming Slider â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Render: Upcoming Slider â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function renderUpcoming(upcoming) {
   if (!upcoming || upcoming.length === 0) return '';
   const cardsHTML = upcoming.map(u => `
@@ -373,7 +373,7 @@ function renderUpcoming(upcoming) {
   </div>`;
 }
 
-// â”€â”€ Render: Recordings â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Render: Recordings â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function renderRecordings(recordings) {
   const totalVideos = recordings.reduce((n, g) => n + g.videos.length, 0);
 
@@ -447,7 +447,7 @@ function renderRecordings(recordings) {
   </div>`;
 }
 
-// â”€â”€ Render: CTA Strip â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Render: CTA Strip â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function renderCTA() {
   return `
   <div class="wb-cta-strip">
@@ -463,21 +463,21 @@ function renderCTA() {
 
 function renderComingSoon() {
   return `
-  <div class=”wb-comingsoon-card”>
-    <div class=”wb-comingsoon-icon”>
-      <svg width=”28” height=”28” viewBox=”0 0 28 28” fill=”none” stroke=”#fff” stroke-width=”1.8” stroke-linecap=”round” stroke-linejoin=”round”>
-        <circle cx=”14” cy=”14” r=”10”/>
-        <path d=”M14 8v6l4 2”/>
+  <div class="wb-comingsoon-card">
+    <div class="wb-comingsoon-icon">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="14" cy="14" r="10"/>
+        <path d="M14 8v6l4 2"/>
       </svg>
     </div>
-    <div class=”wb-comingsoon-badge”><span class=”wb-soon-dot”></span>COMING SOON</div>
-    <h2 class=”wb-comingsoon-title”>More Webinars Coming Soon</h2>
-    <p class=”wb-comingsoon-desc”>We're working on our next session — deep-dives into workforce strategy, product updates, and what's next in HR tech. Subscribe to be the first to know when it goes live.</p>
-    <a href=”#” class=”btn-primary wb-comingsoon-cta”>Get Notified ${ICON_ARROW}</a>
+    <div class="wb-comingsoon-badge"><span class="wb-soon-dot"></span>COMING SOON</div>
+    <h2 class="wb-comingsoon-title">More Webinars Coming Soon</h2>
+    <p class="wb-comingsoon-desc">We're working on our next session — deep-dives into workforce strategy, product updates, and what's next in HR tech. Subscribe to be the first to know when it goes live.</p>
+    <a href="#" class="btn-primary wb-comingsoon-cta">Get Notified ${ICON_ARROW}</a>
   </div>`;
 }
 
-// â”€â”€ Countdown Timer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Countdown Timer â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function startCountdown(isoDate) {
   const target = new Date(isoDate);
   const pad = n => String(Math.floor(n)).padStart(2, '0');
@@ -503,7 +503,7 @@ function startCountdown(isoDate) {
   setInterval(tick, 1000);
 }
 
-// â”€â”€ Slider Logic â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Slider Logic â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 let upcomingIndex = 0;
 function isMobile() { return window.innerWidth <= 768; }
 function getVisible() { return window.innerWidth <= 1024 ? 2 : 3; }
@@ -538,7 +538,7 @@ function initSlider() {
   }
 }
 
-// â”€â”€ Scroll Reveal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Scroll Reveal â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function initReveal() {
   const obs = new IntersectionObserver(entries => {
     entries.forEach(e => {
@@ -558,7 +558,7 @@ function initReveal() {
   });
 }
 
-// â”€â”€ Hamburger â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Hamburger â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function initHamburger() {
   const btn = document.getElementById('hamburger');
   const drawer = document.getElementById('mobile-nav');
@@ -576,7 +576,7 @@ function initHamburger() {
   }));
 }
 
-// â”€â”€ Video Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Video Modal â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 function renderModal() {
   const el = document.createElement('div');
   el.id = 'wb-video-modal';
@@ -610,7 +610,7 @@ function closeVideoModal() {
   document.body.style.overflow = '';
 }
 
-// â”€â”€ Main: Fetch data.json and render everything â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// â"€â"€ Main: Fetch data.json and render everything â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
 async function init() {
   try {
     const data = WEBINAR_DATA;

@@ -22,6 +22,21 @@ const WEBINAR_DATA = {
       "videos": [
         {
           "id": "rec-0",
+          "id": "rec-19",
+          "title": "The Resource Triangle: Aligning Tech, Finance & People for Real HR ROI",
+          "date": "5 Jun 2026",
+          "duration": "",
+          "views": "",
+          "language": "Bahasa",
+          "youtubeId": "HcNrcX5XKPk",
+          "thumbnailGradient": "linear-gradient(135deg,#1e3a8a,#2563eb)",
+          "speakers": [
+            { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategist & Digital Employee Journey Architect, Pratesis", "photo": "https://peopleshr.com/wp-content/uploads/2026/06/marcino_waas.webp", "color": "#dbeafe", "textColor": "#2563eb" }
+          ],
+          "watchUrl": "https://youtu.be/HcNrcX5XKPk"
+        },
+        {
+          "id": "rec-0",
           "title": "The AI Intelligence Your C-Suite Needs",
           "date": "19 May 2026",
           "duration": "42:39",

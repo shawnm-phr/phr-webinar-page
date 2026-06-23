@@ -36,20 +36,6 @@ const WEBINAR_DATA = {
           "watchUrl": "https://youtu.be/Ux9xORrEvkc"
         },
         {
-          "id": "rec-19",
-          "title": "The Resource Triangle: Aligning Tech, Finance & People for Real HR ROI",
-          "date": "5 Jun 2026",
-          "duration": "",
-          "views": "",
-          "language": "Bahasa",
-          "youtubeId": "HcNrcX5XKPk",
-          "thumbnailGradient": "linear-gradient(135deg,#1e3a8a,#2563eb)",
-          "speakers": [
-            { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategist & Digital Employee Journey Architect, Pratesis", "photo": "https://peopleshr.com/wp-content/uploads/2026/05/marcino_waas.webp", "color": "#dbeafe", "textColor": "#2563eb" }
-          ],
-          "watchUrl": "https://youtu.be/HcNrcX5XKPk"
-        },
-        {
           "id": "rec-0",
           "title": "The AI Intelligence Your C-Suite Needs",
           "date": "19 May 2026",
@@ -111,6 +97,20 @@ const WEBINAR_DATA = {
       "category": "HR & People",
       "categoryColor": "#be185d",
       "videos": [
+        {
+          "id": "rec-19",
+          "title": "The Resource Triangle: Aligning Tech, Finance & People for Real HR ROI",
+          "date": "5 Jun 2026",
+          "duration": "",
+          "views": "",
+          "language": "Bahasa",
+          "youtubeId": "HcNrcX5XKPk",
+          "thumbnailGradient": "linear-gradient(135deg,#1e3a8a,#2563eb)",
+          "speakers": [
+            { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategist & Digital Employee Journey Architect, Pratesis", "photo": "https://peopleshr.com/wp-content/uploads/2026/05/marcino_waas.webp", "color": "#dbeafe", "textColor": "#2563eb" }
+          ],
+          "watchUrl": "https://youtu.be/HcNrcX5XKPk"
+        },
         {
           "id": "rec-9",
           "title": "Talent in the Age of AI: How HR Tech Is Transforming Workforce Management",

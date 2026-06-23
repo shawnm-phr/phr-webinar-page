@@ -2,7 +2,7 @@ const WEBINAR_DATA = {
   "featured": {
     "title": "Agentic AI in HR: What Every Leader Needs to Know Today",
     "description": "Agentic AI is moving HR from automation to autonomy — systems that don't just execute tasks but make decisions, take action, and adapt in real time. Join Iono Mendoza and Manolo Garcia-Ramos as they break down what agentic AI actually means for HR leaders, where it's already changing day-to-day operations, and how to prepare your organisation for what's coming next.",
-    "date": "2026-06-23T14:30:00+08:00",
+    "date": "",
     "dateLabel": "23rd June, 2026",
     "timeLabel": "2:30 PM PHT",
     "registerUrl": "https://peopleshr.com/webinar-agentic-ai-ph/",
@@ -21,7 +21,6 @@ const WEBINAR_DATA = {
       "categoryColor": "#2563eb",
       "videos": [
         {
-          "id": "rec-0",
           "id": "rec-19",
           "title": "The Resource Triangle: Aligning Tech, Finance & People for Real HR ROI",
           "date": "5 Jun 2026",
@@ -462,6 +461,19 @@ function renderCTA() {
   </div>`;
 }
 
+function renderComingSoon() {
+  return `
+  <div class=”wb-coming-soon”>
+    <div class=”wb-coming-soon-inner”>
+      <div class=”wb-coming-soon-icon”>
+        <svg width=”40” height=”40” viewBox=”0 0 40 40” fill=”none”><circle cx=”20” cy=”20” r=”18” stroke=”#2563eb” stroke-width=”2” opacity=”.2”/><path d=”M20 10v10l6 4” stroke=”#2563eb” stroke-width=”2.5” stroke-linecap=”round”/></svg>
+      </div>
+      <h2 class=”wb-coming-soon-title”>More Webinars Coming Soon</h2>
+      <p class=”wb-coming-soon-sub”>We're planning our next session. Subscribe below to be the first to know when it goes live.</p>
+    </div>
+  </div>`;
+}
+
 // â”€â”€ Countdown Timer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function startCountdown(isoDate) {
   const target = new Date(isoDate);
@@ -601,8 +613,9 @@ async function init() {
     const data = WEBINAR_DATA;
 
     const body = document.getElementById('wb-body');
+    const hasUpcoming = data.featured && data.featured.date && new Date(data.featured.date) > new Date();
     body.innerHTML =
-      renderFeatured(data.featured) +
+      (hasUpcoming ? renderFeatured(data.featured) : renderComingSoon()) +
       renderUpcoming(data.upcoming) +
       renderRecordings(data.recordings) +
       renderCTA();
@@ -616,7 +629,7 @@ async function init() {
     });
 
     // Kick off interactive features after DOM is ready
-    startCountdown(data.featured.date);
+    if (hasUpcoming) startCountdown(data.featured.date);
     initSlider();
     initReveal();
     initHamburger();

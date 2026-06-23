@@ -463,13 +463,24 @@ function renderCTA() {
 
 function renderComingSoon() {
   return `
-  <div class=”wb-coming-soon”>
-    <div class=”wb-coming-soon-inner”>
-      <div class=”wb-coming-soon-icon”>
-        <svg width=”40” height=”40” viewBox=”0 0 40 40” fill=”none”><circle cx=”20” cy=”20” r=”18” stroke=”#2563eb” stroke-width=”2” opacity=”.2”/><path d=”M20 10v10l6 4” stroke=”#2563eb” stroke-width=”2.5” stroke-linecap=”round”/></svg>
+  <div class=”wb-featured-card”>
+    <div class=”wb-featured-left”>
+      <div>
+        <div class=”wb-featured-meta”>
+          <span class=”wb-live-badge”><span class=”wb-live-dot” style=”background:#94a3b8;animation:none;”></span>COMING SOON</span>
+        </div>
+        <h2 class=”wb-featured-title”>More Webinars Coming Soon</h2>
+        <p class=”wb-featured-desc”>We're working on our next session — deep-dives into workforce strategy, product updates, and what's next in HR tech. Subscribe to be the first to know when it goes live.</p>
       </div>
-      <h2 class=”wb-coming-soon-title”>More Webinars Coming Soon</h2>
-      <p class=”wb-coming-soon-sub”>We're planning our next session. Subscribe below to be the first to know when it goes live.</p>
+      <div class=”wb-featured-footer”>
+        <a href=”#” class=”btn-primary wb-featured-cta” onclick=”document.querySelector('.wb-cta-strip').scrollIntoView({behavior:'smooth'});return false;”>Get Notified ${ICON_ARROW}</a>
+      </div>
+    </div>
+    <div class=”wb-featured-right” style=”background:linear-gradient(135deg,#1e3a8a 0%,#2563eb 60%,#3b82f6 100%);display:flex;align-items:center;justify-content:center;”>
+      <div style=”text-align:center;padding:40px;”>
+        <svg width=”72” height=”72” viewBox=”0 0 72 72” fill=”none”><circle cx=”36” cy=”36” r=”32” stroke=”rgba(255,255,255,.2)” stroke-width=”2”/><circle cx=”36” cy=”36” r=”22” stroke=”rgba(255,255,255,.15)” stroke-width=”2”/><path d=”M36 18v18l10 7” stroke=”#fff” stroke-width=”3” stroke-linecap=”round” stroke-linejoin=”round”/></svg>
+        <p style=”color:rgba(255,255,255,.7);font-size:.9rem;margin-top:16px;font-weight:500;”>Next session announced soon</p>
+      </div>
     </div>
   </div>`;
 }

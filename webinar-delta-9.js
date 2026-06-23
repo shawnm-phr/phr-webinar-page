@@ -654,7 +654,7 @@ function openNotifyModal() {
   _notifyFormLoaded = true;
   function createForm() {
     hbspt.forms.create({
-      region: 'na1',
+      region: 'na2',
       portalId: '45700506',
       formId: '11020900-bc03-406a-bee2-deaee6112df2',
       target: '#wb-notify-form'
@@ -665,7 +665,7 @@ function openNotifyModal() {
   } else {
     const script = document.createElement('script');
     script.charset = 'utf-8';
-    script.src = '//js.hsforms.net/forms/embed/v2.js';
+    script.src = '//js-na2.hsforms.net/forms/embed/v2.js';
     script.onload = createForm;
     document.head.appendChild(script);
   }

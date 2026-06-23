@@ -30,7 +30,7 @@ const WEBINAR_DATA = {
           "youtubeId": "HcNrcX5XKPk",
           "thumbnailGradient": "linear-gradient(135deg,#1e3a8a,#2563eb)",
           "speakers": [
-            { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategist & Digital Employee Journey Architect, Pratesis", "photo": "https://peopleshr.com/wp-content/uploads/2026/06/marcino_waas.webp", "color": "#dbeafe", "textColor": "#2563eb" }
+            { "initials": "MW", "name": "Marcino Waas", "role": "HR Technology Strategist & Digital Employee Journey Architect, Pratesis", "photo": "https://peopleshr.com/wp-content/uploads/2026/05/marcino_waas.webp", "color": "#dbeafe", "textColor": "#2563eb" }
           ],
           "watchUrl": "https://youtu.be/HcNrcX5XKPk"
         },

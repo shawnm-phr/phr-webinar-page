@@ -616,9 +616,8 @@ async function init() {
     const data = WEBINAR_DATA;
 
     const body = document.getElementById('wb-body');
-    const hasUpcoming = data.featured && data.featured.date && new Date(data.featured.date) > new Date();
     body.innerHTML =
-      (hasUpcoming ? renderFeatured(data.featured) : renderComingSoon()) +
+      renderComingSoon() +
       renderUpcoming(data.upcoming) +
       renderRecordings(data.recordings) +
       renderCTA();
@@ -632,7 +631,6 @@ async function init() {
     });
 
     // Kick off interactive features after DOM is ready
-    if (hasUpcoming) startCountdown(data.featured.date);
     initSlider();
     initReveal();
     initHamburger();

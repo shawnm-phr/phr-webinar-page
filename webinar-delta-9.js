@@ -21,6 +21,21 @@ const WEBINAR_DATA = {
       "categoryColor": "#2563eb",
       "videos": [
         {
+          "id": "rec-20",
+          "title": "Agentic AI in HR: What Every Leader Needs to Know Today",
+          "date": "23 Jun 2026",
+          "duration": "",
+          "views": "",
+          "language": "English",
+          "youtubeId": "Ux9xORrEvkc",
+          "thumbnailGradient": "linear-gradient(135deg,#1e3a8a,#7c3aed)",
+          "speakers": [
+            { "initials": "IM", "name": "Iono Mendoza", "role": "CEO & Co-founder, Amorsolo Consulting", "photo": "https://peopleshr.com/wp-content/uploads/2026/06/iona_mendoza.webp", "color": "#ede9fe", "textColor": "#7c3aed" },
+            { "initials": "MG", "name": "Manolo Garcia-Ramos", "role": "Country Director – Philippines, PeoplesHR", "photo": "https://peopleshr.com/wp-content/uploads/2026/06/manuel_ramos.webp", "color": "#dbeafe", "textColor": "#2563eb" }
+          ],
+          "watchUrl": "https://youtu.be/Ux9xORrEvkc"
+        },
+        {
           "id": "rec-19",
           "title": "The Resource Triangle: Aligning Tech, Finance & People for Real HR ROI",
           "date": "5 Jun 2026",

@@ -6425,6 +6425,7 @@ button.btn-primary {
 .wb-notify-inner{padding:48px;}
 .wb-notify-title{font-size:1.4rem;font-weight:800;color:#0d1b3e;margin:0 0 8px;}
 .wb-notify-sub{font-size:.95rem;color:#6b7280;margin:0 0 24px;line-height:1.6;}
+.wb-notify-loader{display:flex;align-items:center;gap:10px;color:#6b7280;font-size:.9rem;padding:12px 0 20px;}
 @media(max-width:600px){.wb-notify-inner{padding:32px 20px;}.wb-modal-box--form .wb-modal-close{top:10px;right:10px;}}
 .wb-watch-btn{background:none;border:none;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:600;color:var(--blue);font-family:inherit;}
 /* Interactive demo thumbnail image + gradient overlay */

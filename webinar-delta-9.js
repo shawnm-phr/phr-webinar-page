@@ -487,7 +487,7 @@ function renderComingSoon() {
     </div>
     <div class="wb-comingsoon-badge"><span class="wb-soon-dot"></span>COMING SOON</div>
     <h2 class="wb-comingsoon-title">More Webinars Coming Soon</h2>
-    <p class="wb-comingsoon-desc">We're working on our next session — deep-dives into workforce strategy, product updates, and what's next in HR tech. Subscribe to be the first to know when it goes live.</p>
+    <p class="wb-comingsoon-desc">We're working on our next session &mdash; deep-dives into workforce strategy, product updates, and what's next in HR tech. Subscribe to be the first to know when it goes live.</p>
     <a href="#" class="btn-primary wb-comingsoon-cta wb-notify-btn">Get Notified ${ICON_ARROW}</a>
   </div>`;
 }
@@ -636,6 +636,10 @@ function renderNotifyModal() {
       <div class="wb-notify-inner">
         <h3 class="wb-notify-title">Stay in the Loop</h3>
         <p class="wb-notify-sub">Be the first to know when our next webinar goes live.</p>
+        <div id="wb-notify-loader" class="wb-notify-loader">
+          <svg width="32" height="32" viewBox="0 0 40 40" fill="none" class="wb-loading-spinner"><circle cx="20" cy="20" r="16" stroke="#e2e8f0" stroke-width="4"/><path d="M20 4a16 16 0 0 1 16 16" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/></svg>
+          <span>Loading form...</span>
+        </div>
         <div id="wb-notify-form"></div>
       </div>
     </div>`;
@@ -657,7 +661,11 @@ function openNotifyModal() {
       region: 'na2',
       portalId: '45700506',
       formId: '11020900-bc03-406a-bee2-deaee6112df2',
-      target: '#wb-notify-form'
+      target: '#wb-notify-form',
+      onFormReady: function() {
+        const loader = document.getElementById('wb-notify-loader');
+        if (loader) loader.style.display = 'none';
+      }
     });
   }
   if (window.hbspt) {
